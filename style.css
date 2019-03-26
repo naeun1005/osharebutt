@@ -1,0 +1,20 @@
+body{margin: 0;}
+a{color:gray;
+ text-decoration:none;}
+h1{font-size: 45px; font color: gray;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 50px}
+ol{width: 100px;
+   margin: 0;
+   padding: 20px;
+   padding-left: 40px;}
+#schedule{padding-left: 25px;}
+div{border-right: 1px solid gray;}
+#grid{display:grid;
+	grid-template-columns: 200px 1fr;}
+ @media(max-width:700px){
+ 	#grid{display: block;}
+      ol{border-right:none;}
+      h1 {border-bottom:none;}}
